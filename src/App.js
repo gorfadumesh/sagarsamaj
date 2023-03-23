@@ -3,17 +3,20 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Banner from "./components/Banner";
 import Home from "./Pages/Home";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./Pages/About";
 
 function App() {
   return (
     <>
-      <Header />
       <Router>
+        <Header />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/path2" element={<Banner />} />
-          <Route exact path="/path3" element={<Banner />} />
+          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
         </Routes>
+      <Footer />
+
       </Router>
     </>
   );

@@ -4,9 +4,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.min.css";
 import sagar_samaj_logo from "../assets/sagar_samaj_logo.png";
-import sagar_samaj_logo_small from "../assets/sagar_samaj_logo_small.png";
+import {  useNavigate   } from "react-router-dom";
+
 
 const Header = () => {
+  const navigate = useNavigate()
   return (
     <div>
            <header className="header">
@@ -53,10 +55,10 @@ const Header = () => {
             <div className="menu">
               <ul>
                 <li>
-                  <a href="/">HOME</a>
+                  <a onClick={()=>navigate("/home")}>HOME</a>
                 </li>
                 <li>
-                  <a href="/">ABOUT US</a>
+                  <a  onClick={()=>navigate("/about")} >ABOUT US</a>
                 </li>
                 <li>
                   <a href="/">COMMITTEE</a>
@@ -86,7 +88,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </header>{" "} 
+      </header> 
     </div>
   )
 }
