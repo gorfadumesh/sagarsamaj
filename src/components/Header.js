@@ -55,10 +55,10 @@ const Header = () => {
             <div className="menu">
               <ul>
                 <li>
-                  <a onClick={()=>navigate("/home")}>HOME</a>
+                  <span style={{cursor:"pointer"}} onClick={()=>navigate("/home")}>HOME</span>
                 </li>
                 <li>
-                  <a  onClick={()=>navigate("/about")} >ABOUT US</a>
+                  <span style={{cursor:"pointer"}}  onClick={()=>navigate("/about")} >ABOUT US</span>
                 </li>
                 <li>
                   <a href="/">COMMITTEE</a>
