@@ -20,7 +20,7 @@ const ContactUsContent = () => {
               <div className="row">
                 <div className="col-md-6">
                     
-                  <iframe src="https://maps.google.com/maps?q=Junagadh&t=&z=10&ie=UTF8&iwloc=&output=embed" width={400} height={300} frameBorder={0} style={{border: 0}} allowFullScreen />
+                  <iframe title="sagar" src="https://maps.google.com/maps?q=Junagadh&t=&z=10&ie=UTF8&iwloc=&output=embed" width={400} height={300} frameBorder={0} style={{border: 0}} allowFullScreen />
                   {/*<div class="map"></div>*/}
                 </div>
                 <div className="col-md-6">
