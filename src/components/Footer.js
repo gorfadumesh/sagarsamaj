@@ -31,43 +31,43 @@ const Footer = () => {
                 <ul className="clearfix">
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="index.html">HOME</a>
+                    <a href="/">HOME</a>
                   </li>
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="about-us.html">ABOUT US</a>
+                    <a href="/">ABOUT US</a>
                   </li>
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="committee.html">COMMITTEE</a>
+                    <a href="/">COMMITTEE</a>
                   </li>
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="donors.html">DONORS</a>
+                    <a href="/">DONORS</a>
                   </li>
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="events.html">EVENTS</a>
+                    <a href="/">EVENTS</a>
                   </li>
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="events/gallery.html">GALLERY</a>
+                    <a href="/">GALLERY</a>
                   </li>
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="collection-center.html">COLLECTION CENTER</a>
+                    <a href="/">COLLECTION CENTER</a>
                   </li>
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="download.html">DOWNLOAD</a>
+                    <a href="/">DOWNLOAD</a>
                   </li>
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="directory.html">DIRECTORY</a>
+                    <a href="/">DIRECTORY</a>
                   </li>
                   <li>
                     <i className="fa fa-caret-right" aria-hidden="true" />
-                    <a href="contact-us.html">CONTACT US</a>
+                    <a href="/">CONTACT US</a>
                   </li>
                 </ul>
               </div>
@@ -110,8 +110,8 @@ const Footer = () => {
             <div className="left">
               <span className="copyright">
                 <a href="/">
-                  Copyright @ 2023 Choryasi Kadva Patidar Samaj Vikas Trust,
-                  Ahmedabad. All rights Reserved
+                  Copyright @ 2023 Sagar Samaj Trust,
+                  Junagadh. All rights Reserved
                 </a>
               </span>
             </div>

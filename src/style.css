@@ -446,7 +446,7 @@ iframe {
 /*- float -*/
 .float-left,
 .left {
-  float: left;
+  float: none;
 }
 .float-right,
 .right {
