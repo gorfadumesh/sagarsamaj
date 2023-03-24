@@ -44,11 +44,10 @@ const Header = () => {
                 </div>
                 <div className="col-md-12" style={{ height: 20 }}></div>
                 <div className="login">
-                  <span className="open_popup" href="#logoin_popup">
-                    Login
-                  </span>
+                  <div className="load_btn">
+                    <a href="/">Login</a>
+                  </div>
                 </div>
-              
               </div>
             </div>
           </div>
@@ -168,6 +167,11 @@ const Header = () => {
           </div>
         </div>
         <nav className="navbar">
+        <div className="login">
+                  <div className="load_btn">
+                    <a href="/">Login</a>
+                  </div>
+                </div>
           <div className="menu-icon" onClick={handleClick}>
             <i className={active ? "fa fa-times" : "fa fa-bars"}></i>
           </div>

@@ -762,8 +762,9 @@ iframe {
   color: #b40000;
   margin: 0;
   padding: 0;
-  font-size: 17px;
+  font-size: 20px;
   cursor: pointer;
+  font-weight: 700;
 }
 .login a {
   color: #b40000;
@@ -771,6 +772,7 @@ iframe {
   padding: 0;
   font-size: 14px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .nav {
@@ -2280,6 +2282,7 @@ input[type="checkbox"]:focus {
   
 
 }
+
 @media only screen and (max-width: 600px) {
     .menu {
       display: none;
@@ -2290,12 +2293,16 @@ input[type="checkbox"]:focus {
     .login {
       display: none;
     }
+    .navbar .login {
+      display: block;
+      padding: 14px 0 0 10px
+    }
    
     .banner_img {
       top: 100px;
     }
     .banner{
-      padding: 100px 0 500px 0;
+      padding: 150px 0 500px 0;
     }
 
 
@@ -2306,6 +2313,7 @@ input[type="checkbox"]:focus {
     @media (max-width: 960px) {
       .navbar {
         position: relative;
+        top: -35 !important;
       }
     
       .nav-menu {
