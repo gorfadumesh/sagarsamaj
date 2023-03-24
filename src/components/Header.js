@@ -1,16 +1,24 @@
-import React from 'react'
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.min.css";
 import sagar_samaj_logo from "../assets/sagar_samaj_logo.png";
 import {  useNavigate, useLocation    } from "react-router-dom";
+import { useState } from "react";
 
 
 const Header = () => {
   const navigate = useNavigate()
   const location = useLocation();
   console.log(location.pathname);
+  const [active, setActive] = useState(false);
+
+  const handleClick = () => {
+    setActive(!active);
+  };
+  const handleClickOff = () => {
+    setActive(false);
+  };
   return (
     <div>
            <header className="header">
@@ -90,6 +98,46 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <nav className="navbar">
+    
+    <div className="menu-icon" onClick={handleClick}>
+      <i className={active ? "fa fa-times" : "fa fa-bars"}></i>
+    </div>
+    <ul className={active ? "nav-menu active" : "nav-menu"}>
+    <li>
+                  <span className={`nav-links ${location.pathname === `/` ? `active` : null } `}   style={{cursor:"pointer"}} onClick={()=>{navigate("/"); handleClickOff()}}>HOME</span>
+                </li>
+                <li>
+                  <span className={`${location.pathname === `/about` ? `active` : null } nav-links`} style={{cursor:"pointer"}}  onClick={()=>{navigate("/about"); handleClickOff()}} >ABOUT US</span>
+                </li>
+                <li>
+                <span className={`${location.pathname === `/committee` ? `active` : null } nav-links`} style={{cursor:"pointer"}}  onClick={()=>{navigate("/committee"); handleClickOff()}} > COMMITTEE</span>
+                </li>
+                <li>
+                <span className={`${location.pathname === `/donors` ? `active` : null } nav-links`} style={{cursor:"pointer"}}  onClick={()=>{navigate("/donors"); handleClickOff()}} >DONORS</span>
+                </li>
+                <li>
+                <span className={`${location.pathname === `/directory` ? `active` : null } nav-links`} style={{cursor:"pointer"}}  onClick={()=>{navigate("/directory"); handleClickOff()}} >DIRECTORY</span>
+                </li>
+                <li>
+                <span className={`${location.pathname === `/matrimonial` ? `active` : null } nav-links`} style={{cursor:"pointer"}}  onClick={()=>{navigate("/matrimonial"); handleClickOff()}} >MATRIMONIAL</span>
+                </li>
+                <li>
+                <span className={`${location.pathname === `/events` ? `active` : null } nav-links`} style={{cursor:"pointer"}}  onClick={()=>{navigate("/events"); handleClickOff()}} >EVENTS</span>
+                </li>
+                <li>
+                <span className={`${location.pathname === `/gallery` ? `active` : null } nav-links`} style={{cursor:"pointer"}}  onClick={()=>{navigate("/gallery"); handleClickOff()}} >GALLERY</span>
+                </li>
+                <li>
+                <span className={`${location.pathname === `/download` ? `active` : null } nav-links`} style={{cursor:"pointer"}}  onClick={()=>{navigate("/download"); handleClickOff()}} >DOWNLOAD</span>
+                </li>
+                <li>
+                <span className={`${location.pathname === `/contact` ? `active` : null } nav-links`} style={{cursor:"pointer"}}  onClick={()=>{navigate("/contact"); handleClickOff()}} >CONTACT US</span>
+                </li>
+                
+    </ul>
+    {/* <Button>SIGN UP</Button> */}
+  </nav>
       </header> 
     </div>
   )
