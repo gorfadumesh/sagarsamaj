@@ -796,16 +796,16 @@ iframe {
   padding: 0 13px;
 }
 /*.login_menu ul li{ display: inline-block; margin: 0; padding: 0 12px;}*/
-.menu ul li a {
+.menu ul li span {
   margin: 0;
   padding: 10px 2px;
   display: block;
-  font-size: 15px;
+  font-size: 14px;
   color: #101010;
   font-weight: 600;
   text-decoration: none;
 }
-.menu ul li a.active {
+.menu ul li span.active {
   border-bottom: 2px solid red;
   padding-bottom: 0px;
 }

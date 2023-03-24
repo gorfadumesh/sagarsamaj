@@ -6,6 +6,12 @@ import Footer from "./components/Footer";
 import About from "./Pages/About";
 import Committee from "./Pages/Committee";
 import Donors from "./Pages/Donors";
+import Events from "./Pages/Events";
+import Contact from "./Pages/Contact";
+import Directory from "./Pages/Directory";
+import Matrimonial from "./Pages/Matrimonial";
+import Gallery from "./Pages/Gallery";
+import Download from "./Pages/Download";
 
 function App() {
   return (
@@ -17,6 +23,12 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/committee" element={<Committee />} />
           <Route exact path="/donors" element={<Donors />} />
+          <Route exact path="/events" element={<Events />} />
+          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/directory" element={<Directory />} />
+          <Route exact path="/matrimonial" element={<Matrimonial />} />
+          <Route exact path="/gallery" element={<Gallery />} />
+          <Route exact path="/download" element={<Download />} />
         </Routes>
       <Footer />
 

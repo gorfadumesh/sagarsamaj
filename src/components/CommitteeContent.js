@@ -1,4 +1,7 @@
 import React from "react";
+import Rameshbhai from "../assets/family/Rameshbhai.jpg"
+import Girishbhai from "../assets/family/Girishbhai.jpg";
+
 
 const CommitteeContent = () => {
   return (
@@ -23,22 +26,22 @@ const CommitteeContent = () => {
                         <img
                           alt="#"
                           className="photo_commitee"
-                          src="img/admin/family/1491388097_Mahendrabhai Patel.JPG"
+                          src={Rameshbhai}
                         />
                         <span>
-                          <b>Name: </b>M L Patel
+                          <b>Name: </b>Rameshbhai Kodavla
                         </span>
                         <span>
                           <b>Designation: </b>Pramukh
                         </span>
                         <span>
-                          <b>Village: </b>Aadivada
+                          <b>Village: </b>Padariya
                         </span>
                         <span>
-                          <b>Area: </b>Sughad
+                          <b>Area: </b>Junagadh
                         </span>
                         <span>
-                          <b>Mobile: </b>9825068014
+                          <b>Mobile: </b>9999999999
                         </span>
                       </div>
                     </a>
@@ -52,26 +55,171 @@ const CommitteeContent = () => {
                         <img
                           alt="#"
                           className="photo_commitee"
-                          src="img/admin/family/1496075401_FB_IMG_1496075126861.jpg"
+                          src={Girishbhai}
                         />
                         <span>
-                          <b>Name: </b>Sureshbhai A Patel
+                          <b>Name: </b>Girishbhai Shir
                         </span>
                         <span>
                           <b>Designation: </b>Mantri
                         </span>
                         <span>
-                          <b>Village: </b>Chathiyarada
+                          <b>Village: </b>Veraval
                         </span>
                         <span>
-                          <b>Area: </b>New Ranip
+                          <b>Area: </b>Junagadh
                         </span>
                         <span>
-                          <b>Mobile: </b>9427359750
+                          <b>Mobile: </b>97223 15218
                         </span>
                       </div>
                     </a>
                     <a
+                      className="mumber_bx"
+                      id={12}
+                      href="/"
+                      title="Sureshbhai A Patel"
+                    >
+                      <div className="member_box_commitee">
+                        <img
+                          alt="#"
+                          className="photo_commitee"
+                          src={Girishbhai}
+                        />
+                        <span>
+                          <b>Name: </b>Girishbhai Shir
+                        </span>
+                        <span>
+                          <b>Designation: </b>Mantri
+                        </span>
+                        <span>
+                          <b>Village: </b>Veraval
+                        </span>
+                        <span>
+                          <b>Area: </b>Junagadh
+                        </span>
+                        <span>
+                          <b>Mobile: </b>97223 15218
+                        </span>
+                      </div>
+                    </a>
+                    <a
+                      className="mumber_bx"
+                      id={12}
+                      href="/"
+                      title="Sureshbhai A Patel"
+                    >
+                      <div className="member_box_commitee">
+                        <img
+                          alt="#"
+                          className="photo_commitee"
+                          src={Girishbhai}
+                        />
+                        <span>
+                          <b>Name: </b>Girishbhai Shir
+                        </span>
+                        <span>
+                          <b>Designation: </b>Mantri
+                        </span>
+                        <span>
+                          <b>Village: </b>Veraval
+                        </span>
+                        <span>
+                          <b>Area: </b>Junagadh
+                        </span>
+                        <span>
+                          <b>Mobile: </b>97223 15218
+                        </span>
+                      </div>
+                    </a>
+                    <a
+                      className="mumber_bx"
+                      id={12}
+                      href="/"
+                      title="Sureshbhai A Patel"
+                    >
+                      <div className="member_box_commitee">
+                        <img
+                          alt="#"
+                          className="photo_commitee"
+                          src={Girishbhai}
+                        />
+                        <span>
+                          <b>Name: </b>Girishbhai Shir
+                        </span>
+                        <span>
+                          <b>Designation: </b>Mantri
+                        </span>
+                        <span>
+                          <b>Village: </b>Veraval
+                        </span>
+                        <span>
+                          <b>Area: </b>Junagadh
+                        </span>
+                        <span>
+                          <b>Mobile: </b>97223 15218
+                        </span>
+                      </div>
+                    </a>
+                    <a
+                      className="mumber_bx"
+                      id={12}
+                      href="/"
+                      title="Sureshbhai A Patel"
+                    >
+                      <div className="member_box_commitee">
+                        <img
+                          alt="#"
+                          className="photo_commitee"
+                          src={Girishbhai}
+                        />
+                        <span>
+                          <b>Name: </b>Girishbhai Shir
+                        </span>
+                        <span>
+                          <b>Designation: </b>Mantri
+                        </span>
+                        <span>
+                          <b>Village: </b>Veraval
+                        </span>
+                        <span>
+                          <b>Area: </b>Junagadh
+                        </span>
+                        <span>
+                          <b>Mobile: </b>97223 15218
+                        </span>
+                      </div>
+                    </a>
+                    <a
+                      className="mumber_bx"
+                      id={12}
+                      href="/"
+                      title="Sureshbhai A Patel"
+                    >
+                      <div className="member_box_commitee">
+                        <img
+                          alt="#"
+                          className="photo_commitee"
+                          src={Girishbhai}
+                        />
+                        <span>
+                          <b>Name: </b>Girishbhai Shir
+                        </span>
+                        <span>
+                          <b>Designation: </b>Mantri
+                        </span>
+                        <span>
+                          <b>Village: </b>Veraval
+                        </span>
+                        <span>
+                          <b>Area: </b>Junagadh
+                        </span>
+                        <span>
+                          <b>Mobile: </b>97223 15218
+                        </span>
+                      </div>
+                    </a>
+                    {/* <a
                       className="mumber_bx"
                       id={52}
                       href="/"
@@ -669,7 +817,7 @@ const CommitteeContent = () => {
                           <b>Mobile: </b>9825287162
                         </span>
                       </div>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="col-md-4">

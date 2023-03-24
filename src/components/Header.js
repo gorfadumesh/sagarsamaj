@@ -67,22 +67,22 @@ const Header = () => {
                 <span style={{cursor:"pointer"}}  onClick={()=>navigate("/donors")} >DONORS</span>
                 </li>
                 <li>
-                  <a href="/">DIRECTORY</a>
+                <span style={{cursor:"pointer"}}  onClick={()=>navigate("/directory")} >DIRECTORY</span>
                 </li>
                 <li>
-                  <a href="/">MATRIMONIAL</a>
+                <span style={{cursor:"pointer"}}  onClick={()=>navigate("/matrimonial")} >MATRIMONIAL</span>
                 </li>
                 <li>
-                  <a href="/">EVENTS</a>
+                <span style={{cursor:"pointer"}}  onClick={()=>navigate("/events")} >EVENTS</span>
                 </li>
                 <li>
-                  <a href="/">GALLERY</a>
+                <span style={{cursor:"pointer"}}  onClick={()=>navigate("/gallery")} >GALLERY</span>
                 </li>
                 <li>
-                  <a href="/">DOWNLOAD</a>
+                <span style={{cursor:"pointer"}}  onClick={()=>navigate("/download")} >DOWNLOAD</span>
                 </li>
                 <li>
-                  <a href="/">CONTACT US</a>
+                <span style={{cursor:"pointer"}}  onClick={()=>navigate("/contact")} >CONTACT US</span>
                 </li>
               </ul>
             </div>
