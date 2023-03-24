@@ -2290,8 +2290,12 @@ input[type="checkbox"]:focus {
     .login {
       display: none;
     }
-    .login {
-      display: block;
+   
+    .banner_img {
+      top: 100px;
+    }
+    .banner{
+      padding: 100px 0 500px 0;
     }
 
 
