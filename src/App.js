@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./Pages/About";
+import Committee from "./Pages/Committee";
+import Donors from "./Pages/Donors";
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
+          <Route exact path="/committee" element={<Committee />} />
+          <Route exact path="/donors" element={<Donors />} />
         </Routes>
       <Footer />
 
