@@ -18,14 +18,10 @@ const CommitteeContent = () => {
               <div className="row">
                 <div className="col-md-8">
                   <div className="member_list">
-                    <a
-                      className="mumber_bx"
-                      id={4}
-                      href="#"
-                      title="M L Patel"
-                    >
+                    <a className="mumber_bx" id={4} href="/" title="M L Patel">
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1491388097_Mahendrabhai Patel.JPG"
                         />
@@ -49,11 +45,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={12}
-                      href="#"
+                      href="/"
                       title="Sureshbhai A Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1496075401_FB_IMG_1496075126861.jpg"
                         />
@@ -77,11 +74,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={52}
-                      href="#"
+                      href="/"
                       title="Dasharathbhai J Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/front/noPhotoAvailable.jpg"
                         />
@@ -105,11 +103,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={813}
-                      href="#"
+                      href="/"
                       title="Amrutlal patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1520873543_IMG_20170211_064203_170.JPG"
                         />
@@ -133,11 +132,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={984}
-                      href="#"
+                      href="/"
                       title="N V patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1522923068_IMG_20180405_153308.jpg"
                         />
@@ -161,11 +161,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={39}
-                      href="#"
+                      href="/"
                       title="Shankarlal H. Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1500186272_papa.jpg"
                         />
@@ -189,11 +190,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={1062}
-                      href="#"
+                      href="/"
                       title="Baldevbhai J. Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1524976881_bjpatel.jpg"
                         />
@@ -217,11 +219,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={791}
-                      href="#"
+                      href="/"
                       title="Dahyabhai I Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1515596506_pappa.jpg"
                         />
@@ -245,11 +248,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={1043}
-                      href="#"
+                      href="/"
                       title="Patel Shaileshbhai"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1524061903_IMG-20170323-WA0079.jpg"
                         />
@@ -273,11 +277,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={138}
-                      href="#"
+                      href="/"
                       title="Dineshbhai Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/front/noPhotoAvailable.jpg"
                         />
@@ -301,11 +306,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={8}
-                      href="#"
+                      href="/"
                       title="Rohil Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1491044976_rohil.jpg"
                         />
@@ -326,14 +332,10 @@ const CommitteeContent = () => {
                         </span>
                       </div>
                     </a>
-                    <a
-                      className="mumber_bx"
-                      id={19}
-                      href="#"
-                      title="D.M.Patel"
-                    >
+                    <a className="mumber_bx" id={19} href="/" title="D.M.Patel">
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1551291697_IMG_20180213_193219_900.jpg"
                         />
@@ -357,11 +359,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={31}
-                      href="#"
+                      href="/"
                       title="Jasmin M Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1493302628_DSC_1025.JPG"
                         />
@@ -385,11 +388,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={55}
-                      href="#"
+                      href="/"
                       title="Sunil Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1491719573_profile_v2.jpg"
                         />
@@ -413,11 +417,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={61}
-                      href="#"
+                      href="/"
                       title="Hiren D Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1514206222_IMG_20141212_160828.jpg"
                         />
@@ -441,11 +446,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={56}
-                      href="#"
+                      href="/"
                       title="Prabhudas B Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/front/noPhotoAvailable.jpg"
                         />
@@ -469,11 +475,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={1031}
-                      href="#"
+                      href="/"
                       title="Dr. Jagrutiben  Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/front/noPhotoAvailable.jpg"
                         />
@@ -497,11 +504,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={189}
-                      href="#"
+                      href="/"
                       title="ISHWARBHAI H PATEL"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/front/noPhotoAvailable.jpg"
                         />
@@ -525,11 +533,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={331}
-                      href="#"
+                      href="/"
                       title="PATEL BALDEVBHAI"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/front/noPhotoAvailable.jpg"
                         />
@@ -550,14 +559,10 @@ const CommitteeContent = () => {
                         </span>
                       </div>
                     </a>
-                    <a
-                      className="mumber_bx"
-                      id={763}
-                      href="#"
-                      title="RAJAN"
-                    >
+                    <a className="mumber_bx" id={763} href="/" title="RAJAN">
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1514356592_FB_IMG_1495093853736.jpg"
                         />
@@ -581,11 +586,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={14}
-                      href="#"
+                      href="/"
                       title="Jayeshkumar Ambalal Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/front/noPhotoAvailable.jpg"
                         />
@@ -609,11 +615,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={943}
-                      href="#"
+                      href="/"
                       title="CHETAN SOMABHAI PATEL"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/admin/family/1524226008_IMG-20171216-WA0008.jpg"
                         />
@@ -637,11 +644,12 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={1030}
-                      href="#"
+                      href="/"
                       title="Jitendrabhai I. Patel"
                     >
                       <div className="member_box_commitee">
                         <img
+                          alt="#"
                           className="photo_commitee"
                           src="img/front/noPhotoAvailable.jpg"
                         />
@@ -671,20 +679,29 @@ const CommitteeContent = () => {
                       <div className="matrimonial_box">
                         <ul className="clearfix">
                           <li>
-                            <img src="img/admin/family/1676565538_IMG_20230216_220317.jpg" alt="#" />
+                            <img
+                              src="img/admin/family/1676565538_IMG_20230216_220317.jpg"
+                              alt="/"
+                            />
                             {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
-                            <img src="img/admin/family/1634550868_avp.jpg" alt="#" />
+                            <img
+                              src="img/admin/family/1634550868_avp.jpg"
+                              alt="/"
+                            />
                             {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
-                            <img src="img/admin/family/1648053719_IMG-20220323-WA0042.jpg" alt="#" />
+                            <img
+                              src="img/admin/family/1648053719_IMG-20220323-WA0042.jpg"
+                              alt="/"
+                            />
                             {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                         </ul>
                         {/* div class="btn">
-                <a href="#">More</a>
+                <a href="/">More</a>
             </div*/}
                       </div>
                     </div>
