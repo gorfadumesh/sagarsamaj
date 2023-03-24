@@ -57,34 +57,34 @@ const Header = () => {
             <div className="menu">
               <ul>
                 <li>
-                  <span className={location.pathname == `/` ? `active` : null}  style={{cursor:"pointer"}} onClick={()=>navigate("/")}>HOME</span>
+                  <span className={location.pathname === `/` ? `active` : null}  style={{cursor:"pointer"}} onClick={()=>navigate("/")}>HOME</span>
                 </li>
                 <li>
-                  <span className={location.pathname == `/about` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/about")} >ABOUT US</span>
+                  <span className={location.pathname === `/about` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/about")} >ABOUT US</span>
                 </li>
                 <li>
-                <span className={location.pathname == `/committee` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/committee")} >COMMITTEE</span>
+                <span className={location.pathname === `/committee` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/committee")} >COMMITTEE</span>
                 </li>
                 <li>
-                <span className={location.pathname == `/donors` ? `active` : null}  style={{cursor:"pointer"}}  onClick={()=>navigate("/donors")} >DONORS</span>
+                <span className={location.pathname === `/donors` ? `active` : null}  style={{cursor:"pointer"}}  onClick={()=>navigate("/donors")} >DONORS</span>
                 </li>
                 <li>
-                <span className={location.pathname == `/directory` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/directory")} >DIRECTORY</span>
+                <span className={location.pathname === `/directory` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/directory")} >DIRECTORY</span>
                 </li>
                 <li>
-                <span className={location.pathname == `/matrimonial` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/matrimonial")} >MATRIMONIAL</span>
+                <span className={location.pathname === `/matrimonial` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/matrimonial")} >MATRIMONIAL</span>
                 </li>
                 <li>
-                <span className={location.pathname == `/events` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/events")} >EVENTS</span>
+                <span className={location.pathname === `/events` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/events")} >EVENTS</span>
                 </li>
                 <li>
-                <span className={location.pathname == `/gallery` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/gallery")} >GALLERY</span>
+                <span className={location.pathname === `/gallery` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/gallery")} >GALLERY</span>
                 </li>
                 <li>
-                <span className={location.pathname == `/download` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/download")} >DOWNLOAD</span>
+                <span className={location.pathname === `/download` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/download")} >DOWNLOAD</span>
                 </li>
                 <li>
-                <span className={location.pathname == `/contact` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/contact")} >CONTACT US</span>
+                <span className={location.pathname === `/contact` ? `active` : null} style={{cursor:"pointer"}}  onClick={()=>navigate("/contact")} >CONTACT US</span>
                 </li>
               </ul>
             </div>
