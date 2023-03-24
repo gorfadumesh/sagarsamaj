@@ -42,8 +42,8 @@ const DonorsContent = () => {
                         </div>
                         <div className="clearfix" style={{margin: '10px 0px'}} />
                         <div className="col-md-3 col-sm-3">
-                          <a href="javascript:void(0);" onclick="func_SearchGridData()" id="search_donors" className="search_btn">Go</a>
-                          <a href="javascript:void(0);" onclick="func_ResetGridData()" className="search_btn">Reset</a>
+                          <a href="#" onclick="func_SearchGridData()" id="search_donors" className="search_btn">Go</a>
+                          <a href="#" onclick="func_ResetGridData()" className="search_btn">Reset</a>
                         </div>
                       </div>
                     </div>                        <div className="member_list">
@@ -65,15 +65,15 @@ const DonorsContent = () => {
                       <div className="matrimonial_box">
                         <ul className="clearfix">
                           <li>
-                            <img src="img/admin/family/1676565538_IMG_20230216_220317.jpg" />
+                            <img src="img/admin/family/1676565538_IMG_20230216_220317.jpg" alt="#"/>
                             {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
-                            <img src="img/admin/family/1634550868_avp.jpg" />
+                            <img src="img/admin/family/1634550868_avp.jpg" alt="#" />
                             {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
-                            <img src="img/admin/family/1648053719_IMG-20220323-WA0042.jpg" />
+                            <img src="img/admin/family/1648053719_IMG-20220323-WA0042.jpg" alt="#" />
                             {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                         </ul>

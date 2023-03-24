@@ -21,7 +21,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={4}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="M L Patel"
                     >
                       <div className="member_box_commitee">
@@ -49,7 +49,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={12}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Sureshbhai A Patel"
                     >
                       <div className="member_box_commitee">
@@ -77,7 +77,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={52}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Dasharathbhai J Patel"
                     >
                       <div className="member_box_commitee">
@@ -105,7 +105,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={813}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Amrutlal patel"
                     >
                       <div className="member_box_commitee">
@@ -133,7 +133,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={984}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="N V patel"
                     >
                       <div className="member_box_commitee">
@@ -161,7 +161,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={39}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Shankarlal H. Patel"
                     >
                       <div className="member_box_commitee">
@@ -189,7 +189,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={1062}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Baldevbhai J. Patel"
                     >
                       <div className="member_box_commitee">
@@ -217,7 +217,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={791}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Dahyabhai I Patel"
                     >
                       <div className="member_box_commitee">
@@ -245,7 +245,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={1043}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Patel Shaileshbhai"
                     >
                       <div className="member_box_commitee">
@@ -273,7 +273,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={138}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Dineshbhai Patel"
                     >
                       <div className="member_box_commitee">
@@ -301,7 +301,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={8}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Rohil Patel"
                     >
                       <div className="member_box_commitee">
@@ -329,7 +329,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={19}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="D.M.Patel"
                     >
                       <div className="member_box_commitee">
@@ -357,7 +357,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={31}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Jasmin M Patel"
                     >
                       <div className="member_box_commitee">
@@ -385,7 +385,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={55}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Sunil Patel"
                     >
                       <div className="member_box_commitee">
@@ -413,7 +413,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={61}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Hiren D Patel"
                     >
                       <div className="member_box_commitee">
@@ -441,7 +441,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={56}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Prabhudas B Patel"
                     >
                       <div className="member_box_commitee">
@@ -469,7 +469,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={1031}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Dr. Jagrutiben  Patel"
                     >
                       <div className="member_box_commitee">
@@ -497,7 +497,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={189}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="ISHWARBHAI H PATEL"
                     >
                       <div className="member_box_commitee">
@@ -525,7 +525,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={331}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="PATEL BALDEVBHAI"
                     >
                       <div className="member_box_commitee">
@@ -553,7 +553,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={763}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="RAJAN"
                     >
                       <div className="member_box_commitee">
@@ -581,7 +581,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={14}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Jayeshkumar Ambalal Patel"
                     >
                       <div className="member_box_commitee">
@@ -609,7 +609,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={943}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="CHETAN SOMABHAI PATEL"
                     >
                       <div className="member_box_commitee">
@@ -637,7 +637,7 @@ const CommitteeContent = () => {
                     <a
                       className="mumber_bx"
                       id={1030}
-                      hre="javascript:void(0);"
+                      href="#"
                       title="Jitendrabhai I. Patel"
                     >
                       <div className="member_box_commitee">
@@ -671,15 +671,15 @@ const CommitteeContent = () => {
                       <div className="matrimonial_box">
                         <ul className="clearfix">
                           <li>
-                            <img src="img/admin/family/1676565538_IMG_20230216_220317.jpg" />
+                            <img src="img/admin/family/1676565538_IMG_20230216_220317.jpg" alt="#" />
                             {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
-                            <img src="img/admin/family/1634550868_avp.jpg" />
+                            <img src="img/admin/family/1634550868_avp.jpg" alt="#" />
                             {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
-                            <img src="img/admin/family/1648053719_IMG-20220323-WA0042.jpg" />
+                            <img src="img/admin/family/1648053719_IMG-20220323-WA0042.jpg" alt="#" />
                             {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                         </ul>
