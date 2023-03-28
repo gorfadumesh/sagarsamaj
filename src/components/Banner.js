@@ -1,20 +1,20 @@
-import React from 'react'
+import React from "react";
 import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.min.css";
 import sagar_samaj_logo_small from "../assets/sagar_samaj_logo_small.png";
-import Rameshbhai from "../assets/family/Rameshbhai.jpg"
+import Rameshbhai from "../assets/family/Rameshbhai.jpg";
 import Girishbhai from "../assets/family/Girishbhai.jpg";
 
 const Banner = () => {
   return (
     <div>
-        <div className="flash-message"></div>
-        <section className="banner">
+      <div className="flash-message"></div>
+      <section className="banner">
         <div className="container">
           <div className="banner_img">
-            <img src={sagar_samaj_logo_small} alt="#"  />
+            <img src={sagar_samaj_logo_small} alt="#" />
           </div>
         </div>
       </section>
@@ -25,23 +25,18 @@ const Banner = () => {
               <div className="col-md-8">
                 <h2>HISTORY OF SAGAR</h2>
                 <p style={{ textAlign: "justify" }}>
-                  Originally called Shegar Dhangar and recently called Sagar
-                  Rajput were traditionally shepherd and farmer claimed higher
-                  status using British Administrative procedures. With new name
-                  and origin myth they claimed to be officially recognized as
-                  Sagar Rajputs.[2] The Sagar claim to be of the Kshatriya
-                  varna. They are one of a number of Rajput groups such as the
-                  Kathi found in Saurashtra, and are concentrated in the
-                  districts of Junagadh, Jamnagar, Bhavnagar, Amreli and Rajkot.
-                  The Sagar speak the Kathiwari dialect of Gujarati. The Sagar
-                  have four territorial divisions, the Suratia, Gujjar, Badai
-                  and Mewari.There are connubial and commensal relations among
-                  the four divisions. The Sagar are further divided into clans
-                  called ataks, the main ones being Gohil, Solanki, Chauhan,
-                  Hajani, Parmar,Nanera, karena , Got etc. They are a community
-                  of large to medium sized farmers, with many now beginning to
-                  migrate to the cities, and are in the process of getting
-                  urbanized.
+                  The Sagar claim to be of the Kshatriya varna. They are one of
+                  a number of Rajput groups such as the Kathi found in
+                  Saurashtra, and are concentrated in the districts of Junagadh,
+                  Jamnagar, Bhavnagar, Amreli and Rajkot. The Sagar speak the
+                  Kathiwari dialect of Gujarati. The Sagar have four territorial
+                  divisions, the Suratia, Gujjar, Badai and Mewari.There are
+                  connubial and commensal relations among the four divisions.
+                  The Sagar are further divided into clans called ataks, the
+                  main ones being Gohil, Solanki, Chauhan, Hajani,
+                  Parmar,Nanera, karena , Got etc. They are a community of large
+                  to medium sized farmers, with many now beginning to migrate to
+                  the cities, and are in the process of getting urbanized.
                 </p>
                 <div className="content_img mb30">
                   {/* <img src="img/front/img_1.jpg" alt="#"  /> */}
@@ -60,7 +55,7 @@ const Banner = () => {
                           src={Rameshbhai}
                           style={{ height: 112, width: "140px" }}
                           title="Rameshbhai"
-                          alt="#" 
+                          alt="#"
                         />
                       </finger>
                       <h3>
@@ -78,7 +73,7 @@ const Banner = () => {
                           src={Girishbhai}
                           style={{ height: 112, width: "140px" }}
                           title="Girishbhai"
-                          alt="#" 
+                          alt="#"
                         />
                       </finger>
                       <h3>
@@ -127,7 +122,7 @@ const Banner = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;
