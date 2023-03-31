@@ -28,6 +28,14 @@ const Header = () => {
                 <img src={sagar_samaj_logo} alt="#" />
               </a>
             </div>
+            <div className="newnav">
+              <div className="load_btn">
+                <a href="/">Login</a>
+              </div>
+              <div className="menu-icon" onClick={handleClick}>
+                <i className={active ? "fa fa-times" : "fa fa-bars"}></i>
+              </div>
+            </div>
             <div className="col-md-6 col-sm-6 col-sm-12">
               <div className="header_right clearfix">
                 <div className="header_top">
@@ -52,7 +60,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="nav">
+        <div className="nav ">
           <div className="container">
             <div className="menu">
               <ul>
@@ -166,15 +174,15 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <nav className="navbar">
-        <div className="login">
-                  <div className="load_btn">
-                    <a href="/">Login</a>
-                  </div>
-                </div>
+        <div className="navbar">
+          {/* <div className="login">
+            <div className="load_btn">
+              <a href="/">Login</a>
+            </div>
+          </div>
           <div className="menu-icon" onClick={handleClick}>
             <i className={active ? "fa fa-times" : "fa fa-bars"}></i>
-          </div>
+          </div> */}
           <ul className={active ? "nav-menu active" : "nav-menu"}>
             <li>
               <span
@@ -319,7 +327,7 @@ const Header = () => {
             </li>
           </ul>
           {/* <Button>SIGN UP</Button> */}
-        </nav>
+        </div>
       </header>
     </div>
   );

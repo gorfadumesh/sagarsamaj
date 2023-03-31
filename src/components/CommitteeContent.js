@@ -1,6 +1,7 @@
 import React from "react";
 import Rameshbhai from "../assets/family/Rameshbhai.jpg"
 import Girishbhai from "../assets/family/Girishbhai.jpg";
+import EventsUpdate from "./EventsUpdate";
 
 
 const CommitteeContent = () => {
@@ -822,8 +823,9 @@ const CommitteeContent = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="side_bar">
+                <EventsUpdate />
                     <div className="matrimonial_div">
-                      <div className="title">Last Update Matrimonial</div>
+                      {/* <div className="title">Last Update Matrimonial</div>
                       <div className="matrimonial_box">
                         <ul className="clearfix">
                           <li>
@@ -831,27 +833,22 @@ const CommitteeContent = () => {
                               src="img/admin/family/1676565538_IMG_20230216_220317.jpg"
                               alt="/"
                             />
-                            {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
                             <img
                               src="img/admin/family/1634550868_avp.jpg"
                               alt="/"
                             />
-                            {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
                             <img
                               src="img/admin/family/1648053719_IMG-20220323-WA0042.jpg"
                               alt="/"
                             />
-                            {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                         </ul>
-                        {/* div class="btn">
-                <a href="/">More</a>
-            </div*/}
-                      </div>
+                       
+                      </div> */}
                     </div>
                   </div>
                 </div>

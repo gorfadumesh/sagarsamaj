@@ -6,6 +6,7 @@ import "font-awesome/css/font-awesome.min.css";
 import sagar_samaj_logo_small from "../assets/sagar_samaj_logo_small.png";
 import Rameshbhai from "../assets/family/Rameshbhai.jpg";
 import Girishbhai from "../assets/family/Girishbhai.jpg";
+import EventsUpdate from "./EventsUpdate";
 
 const Banner = () => {
   return (
@@ -85,14 +86,15 @@ const Banner = () => {
               </div>
               <div className="col-md-4">
                 <div className="side_bar">
-                  <div className="news-events mb30">
+                <EventsUpdate />
+                  {/* <div className="news-events mb30">
                     <div className="title">News &amp; Events</div>
                     <div className="news_div">
                       <h3 style={{ textAlign: "center" }}>
                         <b>No Events found</b>
                       </h3>
                     </div>
-                  </div>
+                  </div> */}
                   {/* <div className="matrimonial_div">
                     <div className="title">Last Update Matrimonial</div>
                     <div className="matrimonial_box">
@@ -111,8 +113,8 @@ const Banner = () => {
                         </li>
                       </ul>
                       < div class="btn">
-            <a href="/">More</a>
-        </div>
+                      <a href="/">More</a>
+                   </div>
                     </div>
                   </div> */}
                 </div>

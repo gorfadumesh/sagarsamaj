@@ -124,28 +124,33 @@ const AboutText = () => {
                 </div>
                 <div className="col-md-4">
                   <div className="side_bar">
-                    <div className="matrimonial_div">
+                  <div className="news-events mb30">
+                    <div className="title">News &amp; Events</div>
+                    <div className="news_div">
+                      <h3 style={{ textAlign: "center" }}>
+                        <b>No Events found</b>
+                      </h3>
+                    </div>
+                  </div>
+                    {/* <div className="matrimonial_div">
                       <div className="title">Last Update Matrimonial</div>
                       <div className="matrimonial_box">
                         <ul className="clearfix">
                           <li>
                             <img src="img/admin/family/1676565538_IMG_20230216_220317.jpg"  alt="#" />
-                            {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
                             <img src="img/admin/family/1634550868_avp.jpg" alt="#" />
-                            {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                           <li>
                             <img src="img/admin/family/1648053719_IMG-20220323-WA0042.jpg" alt="#"/>
-                            {/*img src="https://www.84kadvapatidar.com/img/front/mt_img_1.jpg" alt=""*/}
                           </li>
                         </ul>
-                        {/* div class="btn">
+                        < div class="btn">
                 <a href="#">More</a>
-            </div*/}
+            </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
