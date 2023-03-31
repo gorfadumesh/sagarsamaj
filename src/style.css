@@ -1020,6 +1020,9 @@ iframe {
   padding: 0;
   display: flex;
 }
+.mumber_bx img{
+border-radius: 10px 10px 0 0;
+}
 .mumber_bx {
   margin: 10px 10px;
   padding: 0;
@@ -1029,12 +1032,13 @@ iframe {
   margin: 10;
   width: 100%;
   padding: 2px 0;
-  background: #616265;
+  background: #b70000;
   font-size: 13px;
   line-height: 17px;
   font-weight: 600;
   text-align: center;
   color: #fff;
+  border-radius: 0 0 10px 10px;
 }
 
 .gallery_section {
@@ -2315,9 +2319,10 @@ input[type="checkbox"]:focus {
     .glr_div{
       display: flex;
       flex-direction: column;
+      align-items: center;
     }
     .glr_box{
-      width: 100%;
+      width: 80%;
     }
     .member_list{
       display: flex;

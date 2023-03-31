@@ -60,7 +60,7 @@ const Banner = () => {
                         />
                       </finger>
                       <h3>
-                        Rameshbhai Kodavla <br /> (Pramukh)
+                      રમેશભાઈ કોડાવલા <br /> (પ્રમુખ)
                       </h3>
                     </div>
                     <div
@@ -78,7 +78,7 @@ const Banner = () => {
                         />
                       </finger>
                       <h3>
-                        Girishbhai Shir <br /> (Mantri)
+                      ગીરીશભાઈ શિર <br /> (મંત્રી)
                       </h3>
                     </div>
                   </div>
